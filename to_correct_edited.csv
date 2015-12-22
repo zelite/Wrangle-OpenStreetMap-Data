@@ -1,0 +1,387 @@
+OSM,Gottingen,Change
+Schulstraße,Schillerstraße,False
+Levinpark,Levinstraße,False
+Pappelhof,Pappelweg,False
+Nelkenweg,Nelkenwinkel,False
+Götzenbreite,Steinbreite,False
+Pannstieg,Wagenstieg,False
+Mehlbehrenallee,Siekhöhenallee,False
+Über der Esebeecke,Über der Esebeeke,True
+Charlottenburger Weg,Charlottenburger Straße,False
+Bütemeisterweg,Pütterweg,False
+Holunderweg,Holundersteg,False
+Auf dem Höbel,Auf dem Hagen,False
+Im Dannensee,Innersteweg,False
+Auf dem Thie,Auf dem Bui,False
+Bornwiese,Orthwiesen,False
+Stralsunder Straße,Stralsunder Weg,False
+Weimarer Weg,Weimarer Straße,False
+Am Friedhof,Am Holtenser Friedhof,False
+Im Kampe,Im Tale,False
+Göttinger Straße,Böttingerstraße,False
+Lange Geismarstraße,Lange-Geismar-Straße,True
+Grotefend-Wall,Grotefendstraße,False
+Im Dorfe,Im Dorn,False
+Breiter Weg,Brieger Weg,False
+Eselsteg,Egelsberg,False
+Rehbach,Rehbachstraße,False
+Greifswalder Straße,Greifswalder Weg,False
+Am Korbhofe,Am Ebelhof,False
+Feldscheideweg,An der Feldscheide,False
+Springweg,Sprangerweg,False
+Mühlentorstraße,Mühlenstraße,False
+An der Garte,An der Tränke,False
+Gerberstieg,Kleestieg,False
+Im Hohenrott,Im Rinschenrott,False
+Kiefernberg,Kiefernweg,False
+Hinter dem Lohberge,Auf dem Lohberge,False
+Großer Talsweg,Grasweg,False
+Schinderkuhlenweg,Tonkuhlenweg,False
+Im Burgfeld,Im Südfeld,False
+Rosenweg,Rasenweg,False
+Sudetenlandstraße,Sudetenland-Straße,True
+Adolf-Elissen-Weg,Adolf-Ellissen-Weg,True
+An der Autobahn,An der Seune,False
+Stoeckenweg,Glockenweg,False
+Plessestraße,Kiesseestraße,False
+Mühlendamm,Mühlenstraße,False
+Am Schmalenberg,Am Papenberg,False
+Wartbergring,Kreuzbergring,False
+Wasserbreite,Wakenbreite,False
+Wartbergweg,Wartburgweg,False
+Tripkenstieg,Wagenstieg,False
+Am Kaufpark,Am Kauf Park,True
+Mühlenberg,Mühlenbergsweg,False
+Am Mackenröder Weg,Mackenröder Spitze,False
+Friedhofsweg,Frieseweg,False
+Forstweg,Försterweg,False
+Kolberger Straße,Königsberger Straße,False
+Mittelweg,Mittelberg,False
+Alte Straße,Rote Straße,False
+Säuleneichenallee,Siekhöhenallee,False
+Dammwiesen,Gallwiese,False
+Mühlengrund,Am Mühlengraben,False
+Lange Linie,Lange Straße,False
+Hambergring,Stauffenbergring,False
+Roederestraße,Roedererstraße,True
+Oberer Elstalsweg,Oberer Reekenweg,False
+Eisenwerk,Eibenweg,False
+Am Stollen,Am Sölenborn,False
+Doppelkanalweg,Pappelweg,False
+Hölderlinstraße,Hildebrandstraße,False
+Olenhuser Landstraße,Reinhäuser Landstraße,False
+Lehmkuhle,In der Lehmkuhle,False
+Raseweg,Rasenweg,False
+Reinshof,Lehnshof,False
+Wegelange,Reesenanger,False
+Feldtorweg,Fliederweg,False
+Wendelsweg,Menzelweg,False
+Zum Hessenberg,Zum Kükenberg,False
+Am Felsenkeller,Am Menzelberg,False
+Alte Bundesstraße,Wendenstraße,False
+Marienburger Straße,Kreuzburger Straße,False
+Reinhäuser Straße,Reinhäuser Landstraße,False
+Tiefenbrunner Straße,Weender Straße,False
+Hochwaldstraße,Ewaldstraße,False
+An der Ziegelei,An der Springmühle,False
+Weinbergweg,Hardenbergweg,False
+Dienstköpfestraße,Deisterstraße,False
+Griesebachstraße,Grisebachstraße,True
+Quartiersplatz,Theaterplatz,False
+Göttinger Landstraße,Groner Landstraße,False
+Leine Radfernweg,Lindenweg,False
+Neuer Bekweg,Neuer Weg,False
+An der Kirche,An der Thomaskirche,False
+Am Pfarrgarten,Am Markgraben,False
+Am Weinberg,Am Winterberg,False
+Saubergstraße,Mauerstraße,False
+Über dem Hainholzgraben,Über dem Dorfe,False
+Am Weinberge,Am Winterberg,False
+Lindenstraße,Leinestraße,False
+Bratental,Brentanoweg,False
+Auf der Feldscheide,An der Feldscheide,False
+Niedecker Stieg,Esebecker Straße,False
+Holtenser Straße,Holtenser Landstraße,False
+Göttingen West,Böttingerstraße,False
+Otto-Reinbold-Straße,Otto-Hahn-Straße,False
+Sohnreystraße,Thiestraße,False
+Albaniwall,Albaniplatz,False
+Adam-von-Trott-Weg,James-Graf-von-Moltke-Weg,False
+Zum Sohnsfelde,Zum Sonsfelde,True
+Ludwig-Prandtl-Allee,Ludwig-Prandtl-Straße,False
+Triftweg,Trift,False
+Spickenweg,Finkenweg,False
+Mistweg,Distelweg,False
+Hohenrodtsweg,Rohnsweg,False
+Schlachthofweg,Schlachthofstraße,False
+An der Wellbrücke,An der Tränke,False
+Oberer Hainberg,Oberfeldring,False
+Schleeweg,Schlegelweg,False
+Rosenbaumweg,Rosenbachweg,False
+Lohweg,Kohlweg,False
+Henry-Dunant-Straße,Henri-Dunant-Straße,True
+Bergstraße,Bergenstraße,False
+Privatstraße,Parisstraße,False
+Eselsstieg,Ederstieg,False
+Weidenweg,Weißdornweg,False
+Papenstieg,Wagenstieg,False
+Wilhelm-Bendick-Straße,Wilhelm-Berg-Straße,False
+Ahornweg,Ahornsteg,False
+Gatzenberg,Glatzer Weg,False
+Eichenkrug,Eichweg,False
+Am Hopfenberge,Am Papenberg,False
+Platanenallee,Lindenallee,False
+Schwarzer Weg,Schweidnitzer Weg,False
+Am Schießstand,Am Schäferstein,False
+Hoher Weg,Nordhäuser Weg,False
+Am Luhbach,Am Hachweg,False
+Elstalsweg,Wiesentalsweg,False
+Horstbaumstraße,Hospitalstraße,False
+Unterer Mittelbergsweg,Unterer Reekenweg,False
+Unterer Elstalsweg,Unterer Reekenweg,False
+Harster Berg,Roter Berg,False
+Zum Gelenberg,Zum Kuhlenberg,False
+Hambergstraße,Cramerstraße,False
+Weg 4 - Grüner Weg,Grüner Weg,False
+An der Rotte,An der Lutter,False
+Vor dem Tore,Vor dem Walde,False
+Vor der Bruck,Vor dem Berge,False
+Schöneberger Weg,Schöneberger Straße,False
+Bachbreite,Eschenbreite,False
+Höchtigeweg,Hartriegelweg,False
+An der Kapelle,In der Klappe,False
+Bahnhofstraße,Jahnstraße,False
+Oberer Mühlenteich,Obere Mühle,False
+Im Bache,Im Bruche,False
+Flachsrotte,Flachsrotten,False
+Blumenweg,Ulmenweg,False
+Hinter dem Dorfe,Über dem Dorfe,False
+Eibenwald,Eibenweg,False
+Berghofstraße,Bergenstraße,False
+Gänseberg,Ginsterweg,False
+Clobesbreite,Silberbreite,False
+Alte Heerstraße,Allerstraße,False
+Hagenbreite,Galgenbreite,False
+Lange Geismar-Straße,Lange-Geismar-Straße,True
+Obere Mühlenstraße,Mühlenstraße,False
+Untere Straße,Düstere Straße,False
+Oberer Wiesentalsweg,Wiesentalsweg,False
+Schanzenweg,Schlagenweg,False
+Klappfeldstraße,Kampstraße,False
+Gartenweg,Hirtenweg,False
+Schwarze Gasse,Schäfergasse,False
+Ostlandstraße,Planckstraße,False
+Esebecker Weg,Eislebener Weg,False
+An der Harste,An der Insel,False
+Drewesweg,Arbecksweg,False
+An der Brücke,An der Tränke,False
+Spritweg,Greitweg,False
+Helsweg,Helweg,True
+Elsa-Brandström-Weg,Elsa-Brändström-Weg,True
+Steinflurweg,Steinweg,False
+Am Anger,Am Böhnanger,False
+Friedrich-Münter-Straße,Friedrich-Jenner-Straße,False
+Im Dörmke,Am Dörpe,False
+im Dorfe,Im Dorn,False
+Am Großen Sieke,Im Großen Feld,False
+Vor den Klappen,In der Klappe,False
+Westerbergstraße,Weserstraße,False
+Uhlenloch,Eulenloch,False
+Über den Kohlhöfen,Über den Höfen,False
+Obere Gasse,Obere Karspüle,False
+Schneeballweg,Schulweg,False
+Am Kückenberg,Zum Kükenberg,False
+Niedere Kirchstraße,Friedrichstraße,False
+Am Weendebach,Am Gewende,False
+Spandauer Straße,Spandauer Weg,False
+Bahngasse,Brunnengasse,False
+Am Göttgenberg,Am Papenberg,False
+Lerchenfeld,Lärchenweg,False
+An der Rase,An der Insel,False
+Kirchgrundsweg,Wichernweg,False
+Walter-Nernst-Weg,Walther-Nernst-Weg,True
+Raiffeisenstraße,Wiesenstraße,False
+Königsweg,Königsstieg,False
+Im Kohlhof,Kohlhofsweg,False
+Zum Dachsberg,Zum Kuhberg,False
+Goethestraße,Lotzestraße,False
+Zur Alten Ziegelei,Zur Akelei,False
+Wartberg-Kreisel,Am Warteberge,False
+Am Westerberg,Am Winterberg,False
+Am Teichhof,Am Teiche,False
+Petroslilienstraße,Petrosilienstraße,True
+Knopensteg,Sonnenstieg,False
+Graseweg,Grasweg,False
+An der Wakenbreite,Vor der Laakenbreite,False
+Steinslieth,Steinbreite,False
+Olenhusen,Olenhuser Weg,False
+Ascherberg,Eschenbergweg,False
+Lange Hecke,Lange Rekesweg,False
+Am Hohlen Wege,Hohle Reeke,False
+Rudolf-Wissel-Straße,Rudolf-Wissell-Straße,True
+Hirtengasse,Hirtenweg,False
+Herdingeröderweg,Goerdelerweg,False
+Heeresstraße,Beyerstraße,False
+August-Lange-Straße,August-Spindler-Straße,False
+Landstraße,Londonstraße,False
+Höbelweg,Helweg,False
+Am Scheunenhof,Am Junkernhof,False
+Kaiserallee,Königsallee,False
+Birkenallee,Lindenallee,False
+Untere Mühlenstraße,Mühlenstraße,False
+Gelliehäuser Straße,Ulrideshuser Straße,False
+Kleine Lehmkuhle,In der Lehmkuhle,False
+Rathausplatz,Sachsenplatz,False
+Stadtweg,Am Stadtweg,False
+Steinsmühle,Gartemühle,False
+Am Kreuzsteine,Am Kreuze,False
+Panzerstraße,Paulinerstraße,False
+Kleines Feld,Kleines Wasser,False
+Carl-Hasselbach-Straße,Carl-Mahr-Straße,False
+Anlaufweg,Windausweg,False
+Elsbeerring,Weperring,False
+Rischenweg,Eschenweg,False
+Bovender Straße,Weender Straße,False
+Pfingstanger,Am Pfingstanger,False
+Holzweg,Hainholzweg,False
+Vom-Stein-Straße,Von-Siebold-Straße,False
+Am Diemardener Thie,Am Geismar Thie,False
+Brandenburger Straße,Kreuzburger Straße,False
+In den Wiesen,An den Weiden,False
+Siekhöhenallee/Siekweg,Siekhöhenallee,False
+Erdbrustweg,Ederstieg,False
+Zehntenstraße,Wendenstraße,False
+Roringer Stieg,Roringer Winkel,False
+Reekenweg,Reinkeweg,False
+Heinrich-Albert-Zachariä-Bogen,Heinrich-A.-Zachariä-Bogen,False
+Sonnenstein,Sonnenstieg,False
+Osterbergstraße,Oesterleystraße,False
+Harster Straße,Düstere Straße,False
+Zum Hopfenberg,Zum Kükenberg,False
+Schlehdornweg,Am Schlehdorn,False
+Ruprechtweg,Burckhardtweg,False
+Osterberg,Asternweg,False
+Hinter dem Hamberge,Unterm Hoppenberge,False
+Mauerhof,Meierhof,False
+Dransfelder Rampe,Dransfelder Straße,False
+Heinrich-Deppe-Weg,Heinrich-Düker-Weg,False
+Gottfried-Smidt-Straße,Goldschmidtstraße,False
+In der Laake,In der Klappe,False
+Weingartenstraße,Wendenstraße,False
+Zum Lengder Grund,Zum Leineufer,False
+Am Freibad,Am Groner Freibad,False
+Friedebreite,Weidenbreite,False
+Ulmenstraße,Mühlenstraße,False
+Alte Dorfstraße,Untere Dorfstraße,False
+Thieplatz,Theaterplatz,False
+Mengershäuser Weg,Hetjershäuser Weg,False
+Alte Landstraße,Holtenser Landstraße,False
+Hakenborner Weg,Waldenburger Weg,False
+An den Rotten,An der Lutter,False
+Klostergut,Klosterweg,False
+Potsdamer Straße,Rote Straße,False
+Hempelgasse,Holzgasse,False
+Auf dem Anger,Auf dem Hagen,False
+Hopfenstieg,Höfestieg,False
+Siedlungsweg,Siekweg,False
+Sonnenberg,Sonnenstieg,False
+Waterloostraße,Wagnerstraße,False
+Gehrenweg,Gleichenweg,False
+Wattenbergsweg,Hardenbergweg,False
+Hohes Feld,Hohe Linde,False
+Hinter dem Teiche,Hinterm Knick,False
+Walter-Engelhardt-Weg,Philippine-Engelhardt-Weg,False
+Eichenweg,Eschenweg,False
+Kempelbergstraße,Keplerstraße,False
+Mühlenweg,Mühlenbergsweg,False
+Zur Lemse,Zur Quelle,False
+Im Kleie,Im Kolke,False
+Auf dem Kirchberg,Auf dem Lohberge,False
+Mahntweg,Mohnstieg,False
+Raseanger,Reesenanger,False
+Ahornallee,Ahornsteg,False
+Augustiner Straße,Augustinerstraße,True
+Am Kellberg,Am Menzelberg,False
+Paradiesweg,Primelweg,False
+Kramberg,Brombeerweg,False
+Hinter den Wiesen,Unter den Linden,False
+K.-Scheele-Weg,Schneidemühler Weg,False
+An den Teichen,An den Weiden,False
+Tränkegasse,Bäckergasse,False
+Zur Rasemühle,Zur Scharfmühle,False
+Fehrlingser Weg,Meininger Weg,False
+Auf dem Strautberg,Auf dem Steinacker,False
+Steffensweg,Steinweg,False
+Duderstädter Weg,Dingelstädter Weg,False
+Obere Strautweg,In der Straut,False
+Ettbergweg,Pütterweg,False
+Kornmarkt-Passage,Kornmarkt,False
+Wartbergstraße,Wagnerstraße,False
+Ketzhagen,Kreuzanger,False
+Vor dem Warteberge,Vor dem Berge,False
+Firstweg,Försterweg,False
+An der Stupe,An der Seune,False
+Jendelstraße,Zindelstraße,False
+Am Heimchen Stein,Am Weißen Steine,False
+Grünberger Straße,Groner Straße,False
+Wilhelm-Evers-Straße,Wilhelm-Berg-Straße,False
+Strautweg,Brauweg,False
+Neue Heerstraße,Weserstraße,False
+Helleweg,Hölleweg,False
+Erbecksweg,Arbecksweg,False
+Weissdornweg,Weißdornweg,False
+Auf dem Plane,Auf dem Paul,False
+An der Dehne,An der Seune,False
+Herrmann-Hanker-Straße,Hermann-Hanker-Straße,True
+Schmiedeweg,Schildweg,False
+Im Erbecke,Im Körbchen,False
+Am Thieberg,Thieberg,False
+Zierkirschenallee,Siekhöhenallee,False
+Mackenröder Stieg,Mackenröder Spitze,False
+Heisterweg,Ginsterweg,False
+Oberdorf,Über dem Dorfe,False
+Grabenbreite,Traubenbreite,False
+Hohe-Rott-Weg,Sophie-Kunert-Weg,False
+Lindenhof,Lehnshof,False
+Fahlenbuschstraße,Blumenbachstraße,False
+Dorfstraße,Dürrstraße,False
+Im Sieke,Im Beeke,False
+Am Junkernberge,Am Winterberg,False
+Dermeckestraße,Merkelstraße,False
+Olenhusener Landstraße,Reinhäuser Landstraße,False
+Heinestraße,Leinestraße,False
+Thorner Straße,Groner Straße,False
+Über der Lehmkuhle,In der Lehmkuhle,False
+Aeckernweg,Zedernweg,False
+Brennewiensgasse,Brunnengasse,False
+Hainbergsweg,Hardenbergweg,False
+Am roten Berge,Am Warteberge,False
+Taubenbrunnen,Traubenbreite,False
+Kleine Grundstraße,Klinkerfuesstraße,False
+Alte Dorfstrasse,Untere Dorfstraße,False
+Thiegasse,Schildgasse,False
+Kleebreite,Kommendebreite,False
+Göttingen Ost,Böttingerstraße,False
+Vorderdorfstraße,Roedererstraße,False
+Obere Straße,Oberstraße,False
+Mackenröder Trail,Mackenröder Spitze,False
+Haselweg,Hasenweg,False
+Hinter den Hagen,Unterm Hagen,False
+Mittelbergstraße,Mittelstraße,False
+In der Kamplage,In der Klappe,False
+Am Rieper Berg,Roter Berg,False
+Hinter den Höfen,Über den Höfen,False
+Maienweg,Salinenweg,False
+Gatzenborn,Am Stratenborn,False
+An der Bahn,An der Seune,False
+Taubenbrunnenweg,Tannenweg,False
+Liegnitzer Straße,Chemnitzer Straße,False
+Kampweg,Kaakweg,False
+Obere Kirchstraße,Kirchstraße,False
+Kleperstieg,Kleestieg,False
+Am Kampe,Am Dörpe,False
+Maschweg,Maschmühlenweg,False
+Grütterstraße,Gartenstraße,False
+Hohlweg,Kohlweg,False
+An der Grantbreite,In der Querbreite,False
+Goetheallee,Goethe-Allee,True
