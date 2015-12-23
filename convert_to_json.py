@@ -81,7 +81,7 @@ def format_phone_number(number):
         number = "+"+number
     # some numbers have a thin space (unicode: \u2009 ) separating the numbers
     number = number.replace(u"\u2009", " ")
-    number_object = phonenumbers.parse(number,"DE") # split to remove whitespace
+    number_object = phonenumbers.parse(number,"DE")
     return phonenumbers.format_number(number_object, phonenumbers.PhoneNumberFormat.INTERNATIONAL)
 
 def fix_numbers(element_dict):
