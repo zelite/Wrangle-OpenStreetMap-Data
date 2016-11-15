@@ -7,20 +7,19 @@ Code repository: [github.com/zelite/Wrangle-OpenStreetMap-Data/](https://github.
 
 Contents
 
-<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:0 orderedList:0 -->
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [Wrangle OpenStreetMap Data](#wrangle-openstreetmap-data)
-	- [Introduction](#introduction)
-	- [Problems Encountered in the Map](#problems-encountered-in-the-map)
-		- [Auditing Validity](#auditing-validity)
-		- [Auditing Accuracy](#auditing-accuracy)
-		- [Auditing Completeness](#auditing-completeness)
-		- [Auditing Uniformity](#auditing-uniformity)
-	- [Converting to JSON](#converting-to-json)
-	- [Data Overview](#data-overview)
-	- [Additional Ideas – Exploring Accessibility](#additional-ideas-exploring-accessibility)
-	- [Conclusion](#conclusion)
-	- [References](#references)
+- [Introduction](#introduction)
+- [Problems Encountered in the Map](#problems-encountered-in-the-map)
+	- [Auditing Validity](#auditing-validity)
+	- [Auditing Accuracy](#auditing-accuracy)
+	- [Auditing Completeness](#auditing-completeness)
+	- [Auditing Uniformity](#auditing-uniformity)
+- [Converting to JSON](#converting-to-json)
+- [Data Overview](#data-overview)
+- [Additional Ideas – Exploring Accessibility](#additional-ideas-exploring-accessibility)
+- [Conclusion](#conclusion)
+- [References](#references)
 
 <!-- /TOC -->
 
