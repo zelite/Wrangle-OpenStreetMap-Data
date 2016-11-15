@@ -137,11 +137,13 @@ On this section I will explore which information about wheelchair accessibility 
 Let us begin by having a look at the top 20 amenities found in the Göttingen area. The code for the plots is included in the `data_overview.py` script.
 
 ![Bar Chart with Top 20 amenities](top_20amenitys.png)
+
 _Figure 1 – Top 20 amenity types found in the OSM data._
 
 We can see that there are lots of benches, parking spots (cars and bikes) and waste baskets. We will focus on the amenities where people can actually walk inside: restaurants, kindergartens, fast food restaurants, doctor´s offices, cafes, places of worship and schools.
 
 ![Bart chart with accessibitty information per amenity type](amenities_and_access.png)
+
 _Figure 2 – Accessibility percentage for each type of amenity._
 
 We can see that for the chosen amenities, most do not have information about wheelchair accessibility. For the ones with information, the combination of “yes” and “limited” accessibility is always higher than the “no”.
