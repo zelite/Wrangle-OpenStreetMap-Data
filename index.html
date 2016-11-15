@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8" />
+      <title>index</title>
+      <style>.markdown-preview:not([data-use-github-style]) { padding: 2em; font-size: 1.2em; color: rgb(56, 58, 66); overflow: auto; background-color: rgb(250, 250, 250); }
+.markdown-preview:not([data-use-github-style]) > :first-child { margin-top: 0px; }
+.markdown-preview:not([data-use-github-style]) h1, .markdown-preview:not([data-use-github-style]) h2, .markdown-preview:not([data-use-github-style]) h3, .markdown-preview:not([data-use-github-style]) h4, .markdown-preview:not([data-use-github-style]) h5, .markdown-preview:not([data-use-github-style]) h6 { line-height: 1.2; margin-top: 1.5em; margin-bottom: 0.5em; color: rgb(0, 0, 0); }
+.markdown-preview:not([data-use-github-style]) h1 { font-size: 2.4em; font-weight: 300; }
+.markdown-preview:not([data-use-github-style]) h2 { font-size: 1.8em; font-weight: 400; }
+.markdown-preview:not([data-use-github-style]) h3 { font-size: 1.5em; font-weight: 500; }
+.markdown-preview:not([data-use-github-style]) h4 { font-size: 1.2em; font-weight: 600; }
+.markdown-preview:not([data-use-github-style]) h5 { font-size: 1.1em; font-weight: 600; }
+.markdown-preview:not([data-use-github-style]) h6 { font-size: 1em; font-weight: 600; }
+.markdown-preview:not([data-use-github-style]) strong { color: rgb(0, 0, 0); }
+.markdown-preview:not([data-use-github-style]) del { color: rgb(94, 97, 110); }
+.markdown-preview:not([data-use-github-style]) a, .markdown-preview:not([data-use-github-style]) a code { color: rgb(82, 111, 255); }
+.markdown-preview:not([data-use-github-style]) img { max-width: 100%; }
+.markdown-preview:not([data-use-github-style]) > p { margin-top: 0px; margin-bottom: 1.5em; }
+.markdown-preview:not([data-use-github-style]) > ul, .markdown-preview:not([data-use-github-style]) > ol { margin-bottom: 1.5em; }
+.markdown-preview:not([data-use-github-style]) blockquote { margin: 1.5em 0px; font-size: inherit; color: rgb(94, 97, 110); border-color: rgb(209, 209, 210); border-width: 4px; }
+.markdown-preview:not([data-use-github-style]) hr { margin: 3em 0px; border-top: 2px dashed rgb(209, 209, 210); background: none; }
+.markdown-preview:not([data-use-github-style]) table { margin: 1.5em 0px; }
+.markdown-preview:not([data-use-github-style]) th { color: rgb(0, 0, 0); }
+.markdown-preview:not([data-use-github-style]) th, .markdown-preview:not([data-use-github-style]) td { padding: 0.66em 1em; border: 1px solid rgb(209, 209, 210); }
+.markdown-preview:not([data-use-github-style]) code { color: rgb(0, 0, 0); background-color: rgb(234, 234, 235); }
+.markdown-preview:not([data-use-github-style]) pre.editor-colors { margin: 1.5em 0px; padding: 1em; font-size: 0.92em; border-radius: 3px; background-color: rgb(240, 240, 240); }
+.markdown-preview:not([data-use-github-style]) kbd { color: rgb(0, 0, 0); border-width: 1px 1px 2px; border-style: solid; border-color: rgb(209, 209, 210) rgb(209, 209, 210) rgb(193, 193, 194); background-color: rgb(234, 234, 235); }
+.markdown-preview[data-use-github-style] { font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif; line-height: 1.6; word-wrap: break-word; padding: 30px; font-size: 16px; color: rgb(51, 51, 51); overflow: scroll; background-color: rgb(255, 255, 255); }
+.markdown-preview[data-use-github-style] > :first-child { margin-top: 0px !important; }
+.markdown-preview[data-use-github-style] > :last-child { margin-bottom: 0px !important; }
+.markdown-preview[data-use-github-style] a:not([href]) { color: inherit; text-decoration: none; }
+.markdown-preview[data-use-github-style] .absent { color: rgb(204, 0, 0); }
+.markdown-preview[data-use-github-style] .anchor { position: absolute; top: 0px; left: 0px; display: block; padding-right: 6px; padding-left: 30px; margin-left: -30px; }
+.markdown-preview[data-use-github-style] .anchor:focus { outline: none; }
+.markdown-preview[data-use-github-style] h1, .markdown-preview[data-use-github-style] h2, .markdown-preview[data-use-github-style] h3, .markdown-preview[data-use-github-style] h4, .markdown-preview[data-use-github-style] h5, .markdown-preview[data-use-github-style] h6 { position: relative; margin-top: 1em; margin-bottom: 16px; font-weight: bold; line-height: 1.4; }
+.markdown-preview[data-use-github-style] h1 .octicon-link, .markdown-preview[data-use-github-style] h2 .octicon-link, .markdown-preview[data-use-github-style] h3 .octicon-link, .markdown-preview[data-use-github-style] h4 .octicon-link, .markdown-preview[data-use-github-style] h5 .octicon-link, .markdown-preview[data-use-github-style] h6 .octicon-link { display: none; color: rgb(0, 0, 0); vertical-align: middle; }
+.markdown-preview[data-use-github-style] h1:hover .anchor, .markdown-preview[data-use-github-style] h2:hover .anchor, .markdown-preview[data-use-github-style] h3:hover .anchor, .markdown-preview[data-use-github-style] h4:hover .anchor, .markdown-preview[data-use-github-style] h5:hover .anchor, .markdown-preview[data-use-github-style] h6:hover .anchor { padding-left: 8px; margin-left: -30px; text-decoration: none; }
+.markdown-preview[data-use-github-style] h1:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h2:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h3:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h4:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h5:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h6:hover .anchor .octicon-link { display: inline-block; }
+.markdown-preview[data-use-github-style] h1 tt, .markdown-preview[data-use-github-style] h2 tt, .markdown-preview[data-use-github-style] h3 tt, .markdown-preview[data-use-github-style] h4 tt, .markdown-preview[data-use-github-style] h5 tt, .markdown-preview[data-use-github-style] h6 tt, .markdown-preview[data-use-github-style] h1 code, .markdown-preview[data-use-github-style] h2 code, .markdown-preview[data-use-github-style] h3 code, .markdown-preview[data-use-github-style] h4 code, .markdown-preview[data-use-github-style] h5 code, .markdown-preview[data-use-github-style] h6 code { font-size: inherit; }
+.markdown-preview[data-use-github-style] h1 { padding-bottom: 0.3em; font-size: 2.25em; line-height: 1.2; border-bottom: 1px solid rgb(238, 238, 238); }
+.markdown-preview[data-use-github-style] h1 .anchor { line-height: 1; }
+.markdown-preview[data-use-github-style] h2 { padding-bottom: 0.3em; font-size: 1.75em; line-height: 1.225; border-bottom: 1px solid rgb(238, 238, 238); }
+.markdown-preview[data-use-github-style] h2 .anchor { line-height: 1; }
+.markdown-preview[data-use-github-style] h3 { font-size: 1.5em; line-height: 1.43; }
+.markdown-preview[data-use-github-style] h3 .anchor { line-height: 1.2; }
+.markdown-preview[data-use-github-style] h4 { font-size: 1.25em; }
+.markdown-preview[data-use-github-style] h4 .anchor { line-height: 1.2; }
+.markdown-preview[data-use-github-style] h5 { font-size: 1em; }
+.markdown-preview[data-use-github-style] h5 .anchor { line-height: 1.1; }
+.markdown-preview[data-use-github-style] h6 { font-size: 1em; color: rgb(119, 119, 119); }
+.markdown-preview[data-use-github-style] h6 .anchor { line-height: 1.1; }
+.markdown-preview[data-use-github-style] p, .markdown-preview[data-use-github-style] blockquote, .markdown-preview[data-use-github-style] ul, .markdown-preview[data-use-github-style] ol, .markdown-preview[data-use-github-style] dl, .markdown-preview[data-use-github-style] table, .markdown-preview[data-use-github-style] pre { margin-top: 0px; margin-bottom: 16px; }
+.markdown-preview[data-use-github-style] hr { height: 4px; padding: 0px; margin: 16px 0px; border: 0px none; background-color: rgb(231, 231, 231); }
+.markdown-preview[data-use-github-style] ul, .markdown-preview[data-use-github-style] ol { padding-left: 2em; }
+.markdown-preview[data-use-github-style] ul.no-list, .markdown-preview[data-use-github-style] ol.no-list { padding: 0px; list-style-type: none; }
+.markdown-preview[data-use-github-style] ul ul, .markdown-preview[data-use-github-style] ul ol, .markdown-preview[data-use-github-style] ol ol, .markdown-preview[data-use-github-style] ol ul { margin-top: 0px; margin-bottom: 0px; }
+.markdown-preview[data-use-github-style] li > p { margin-top: 16px; }
+.markdown-preview[data-use-github-style] dl { padding: 0px; }
+.markdown-preview[data-use-github-style] dl dt { padding: 0px; margin-top: 16px; font-size: 1em; font-style: italic; font-weight: bold; }
+.markdown-preview[data-use-github-style] dl dd { padding: 0px 16px; margin-bottom: 16px; }
+.markdown-preview[data-use-github-style] blockquote { padding: 0px 15px; color: rgb(119, 119, 119); border-left: 4px solid rgb(221, 221, 221); }
+.markdown-preview[data-use-github-style] blockquote > :first-child { margin-top: 0px; }
+.markdown-preview[data-use-github-style] blockquote > :last-child { margin-bottom: 0px; }
+.markdown-preview[data-use-github-style] table { display: block; width: 100%; overflow: auto; word-break: keep-all; }
+.markdown-preview[data-use-github-style] table th { font-weight: bold; }
+.markdown-preview[data-use-github-style] table th, .markdown-preview[data-use-github-style] table td { padding: 6px 13px; border: 1px solid rgb(221, 221, 221); }
+.markdown-preview[data-use-github-style] table tr { border-top: 1px solid rgb(204, 204, 204); background-color: rgb(255, 255, 255); }
+.markdown-preview[data-use-github-style] table tr:nth-child(2n) { background-color: rgb(248, 248, 248); }
+.markdown-preview[data-use-github-style] img { max-width: 100%; box-sizing: border-box; }
+.markdown-preview[data-use-github-style] .emoji { max-width: none; }
+.markdown-preview[data-use-github-style] span.frame { display: block; overflow: hidden; }
+.markdown-preview[data-use-github-style] span.frame > span { display: block; float: left; width: auto; padding: 7px; margin: 13px 0px 0px; overflow: hidden; border: 1px solid rgb(221, 221, 221); }
+.markdown-preview[data-use-github-style] span.frame span img { display: block; float: left; }
+.markdown-preview[data-use-github-style] span.frame span span { display: block; padding: 5px 0px 0px; clear: both; color: rgb(51, 51, 51); }
+.markdown-preview[data-use-github-style] span.align-center { display: block; overflow: hidden; clear: both; }
+.markdown-preview[data-use-github-style] span.align-center > span { display: block; margin: 13px auto 0px; overflow: hidden; text-align: center; }
+.markdown-preview[data-use-github-style] span.align-center span img { margin: 0px auto; text-align: center; }
+.markdown-preview[data-use-github-style] span.align-right { display: block; overflow: hidden; clear: both; }
+.markdown-preview[data-use-github-style] span.align-right > span { display: block; margin: 13px 0px 0px; overflow: hidden; text-align: right; }
+.markdown-preview[data-use-github-style] span.align-right span img { margin: 0px; text-align: right; }
+.markdown-preview[data-use-github-style] span.float-left { display: block; float: left; margin-right: 13px; overflow: hidden; }
+.markdown-preview[data-use-github-style] span.float-left span { margin: 13px 0px 0px; }
+.markdown-preview[data-use-github-style] span.float-right { display: block; float: right; margin-left: 13px; overflow: hidden; }
+.markdown-preview[data-use-github-style] span.float-right > span { display: block; margin: 13px auto 0px; overflow: hidden; text-align: right; }
+.markdown-preview[data-use-github-style] code, .markdown-preview[data-use-github-style] tt { padding: 0.2em 0px; margin: 0px; font-size: 85%; border-radius: 3px; background-color: rgba(0, 0, 0, 0.0392157); }
+.markdown-preview[data-use-github-style] code::before, .markdown-preview[data-use-github-style] tt::before, .markdown-preview[data-use-github-style] code::after, .markdown-preview[data-use-github-style] tt::after { letter-spacing: -0.2em; content: " "; }
+.markdown-preview[data-use-github-style] code br, .markdown-preview[data-use-github-style] tt br { display: none; }
+.markdown-preview[data-use-github-style] del code { text-decoration: inherit; }
+.markdown-preview[data-use-github-style] pre > code { padding: 0px; margin: 0px; font-size: 100%; word-break: normal; white-space: pre; border: 0px; background: transparent; }
+.markdown-preview[data-use-github-style] .highlight { margin-bottom: 16px; }
+.markdown-preview[data-use-github-style] .highlight pre, .markdown-preview[data-use-github-style] pre { padding: 16px; overflow: auto; font-size: 85%; line-height: 1.45; border-radius: 3px; background-color: rgb(247, 247, 247); }
+.markdown-preview[data-use-github-style] .highlight pre { margin-bottom: 0px; word-break: normal; }
+.markdown-preview[data-use-github-style] pre { word-wrap: normal; }
+.markdown-preview[data-use-github-style] pre code, .markdown-preview[data-use-github-style] pre tt { display: inline; max-width: initial; padding: 0px; margin: 0px; overflow: initial; line-height: inherit; word-wrap: normal; border: 0px; background-color: transparent; }
+.markdown-preview[data-use-github-style] pre code::before, .markdown-preview[data-use-github-style] pre tt::before, .markdown-preview[data-use-github-style] pre code::after, .markdown-preview[data-use-github-style] pre tt::after { content: normal; }
+.markdown-preview[data-use-github-style] kbd { display: inline-block; padding: 3px 5px; font-size: 11px; line-height: 10px; color: rgb(85, 85, 85); vertical-align: middle; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(204, 204, 204) rgb(187, 187, 187); border-radius: 3px; box-shadow: rgb(187, 187, 187) 0px -1px 0px inset; background-color: rgb(252, 252, 252); }
+.markdown-preview[data-use-github-style] a { color: rgb(51, 122, 183); }
+.markdown-preview[data-use-github-style] code { color: inherit; }
+.markdown-preview[data-use-github-style] pre.editor-colors { padding: 0.8em 1em; margin-bottom: 1em; font-size: 0.85em; border-radius: 4px; overflow: auto; }
+.scrollbars-visible-always .markdown-preview pre.editor-colors::shadow .vertical-scrollbar, .scrollbars-visible-always .markdown-preview pre.editor-colors::shadow .horizontal-scrollbar { visibility: hidden; }
+.scrollbars-visible-always .markdown-preview pre.editor-colors:hover::shadow .vertical-scrollbar, .scrollbars-visible-always .markdown-preview pre.editor-colors:hover::shadow .horizontal-scrollbar { visibility: visible; }
+.markdown-preview .task-list-item-checkbox { position: absolute; margin: 0.25em 0px 0px -1.4em; }
+.bracket-matcher .region {
+  border-bottom: 1px dotted lime;
+  position: absolute;
+}
+
+.spell-check-misspelling .region {
+  border-bottom: 2px dotted rgba(255, 51, 51, 0.75);
+}
+.spell-check-corrections {
+  width: 25em !important;
+}
+
+pre.editor-colors,
+.host {
+  background-color: #fafafa;
+  color: #383a42;
+}
+pre.editor-colors .line.cursor-line,
+.host .line.cursor-line {
+  background-color: rgba(56, 58, 66, 0.05);
+}
+pre.editor-colors .invisible,
+.host .invisible {
+  color: #383a42;
+}
+pre.editor-colors .cursor,
+.host .cursor {
+  border-left: 2px solid #526fff;
+}
+pre.editor-colors .selection .region,
+.host .selection .region {
+  background-color: #e5e5e6;
+}
+pre.editor-colors .bracket-matcher .region,
+.host .bracket-matcher .region {
+  border-bottom: 1px solid #526fff;
+  box-sizing: border-box;
+}
+pre.editor-colors .invisible-character,
+.host .invisible-character {
+  color: rgba(56, 58, 66, 0.2);
+}
+pre.editor-colors .indent-guide,
+.host .indent-guide {
+  color: rgba(56, 58, 66, 0.2);
+}
+pre.editor-colors .wrap-guide,
+.host .wrap-guide {
+  background-color: rgba(56, 58, 66, 0.2);
+}
+pre.editor-colors .find-result .region.region.region,
+.host .find-result .region.region.region,
+pre.editor-colors .current-result .region.region.region,
+.host .current-result .region.region.region {
+  border-radius: 2px;
+  background-color: rgba(82, 111, 255, 0.2);
+  transition: border-color 0.4s;
+}
+pre.editor-colors .find-result .region.region.region,
+.host .find-result .region.region.region {
+  border: 2px solid transparent;
+}
+pre.editor-colors .current-result .region.region.region,
+.host .current-result .region.region.region {
+  border: 2px solid #526fff;
+  transition-duration: .1s;
+}
+pre.editor-colors .gutter .line-number,
+.host .gutter .line-number {
+  color: #9d9d9f;
+  -webkit-font-smoothing: antialiased;
+}
+pre.editor-colors .gutter .line-number.cursor-line,
+.host .gutter .line-number.cursor-line {
+  color: #383a42;
+  background-color: #f2f2f2;
+}
+pre.editor-colors .gutter .line-number.cursor-line-no-selection,
+.host .gutter .line-number.cursor-line-no-selection {
+  background-color: transparent;
+}
+pre.editor-colors .gutter .line-number .icon-right,
+.host .gutter .line-number .icon-right {
+  color: #383a42;
+}
+pre.editor-colors .gutter:not(.git-diff-icon) .line-number.git-line-removed.git-line-removed::before,
+.host .gutter:not(.git-diff-icon) .line-number.git-line-removed.git-line-removed::before {
+  bottom: -3px;
+}
+pre.editor-colors .gutter:not(.git-diff-icon) .line-number.git-line-removed::after,
+.host .gutter:not(.git-diff-icon) .line-number.git-line-removed::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 25px;
+  border-bottom: 1px dotted rgba(255, 20, 20, 0.5);
+  pointer-events: none;
+}
+pre.editor-colors .gutter .line-number.folded,
+.host .gutter .line-number.folded,
+pre.editor-colors .gutter .line-number:after,
+.host .gutter .line-number:after,
+pre.editor-colors .fold-marker:after,
+.host .fold-marker:after {
+  color: #383a42;
+}
+.comment {
+  color: #a0a1a7;
+  font-style: italic;
+}
+.comment .markup.link {
+  color: #a0a1a7;
+}
+.entity.name.type {
+  color: #c18401;
+}
+.entity.other.inherited-class {
+  color: #50a14f;
+}
+.keyword {
+  color: #a626a4;
+}
+.keyword.control {
+  color: #a626a4;
+}
+.keyword.operator {
+  color: #383a42;
+}
+.keyword.other.special-method {
+  color: #4078f2;
+}
+.keyword.other.unit {
+  color: #986801;
+}
+.storage {
+  color: #a626a4;
+}
+.storage.type.annotation,
+.storage.type.primitive {
+  color: #a626a4;
+}
+.storage.modifier.package,
+.storage.modifier.import {
+  color: #383a42;
+}
+.constant {
+  color: #986801;
+}
+.constant.variable {
+  color: #986801;
+}
+.constant.character.escape {
+  color: #0184bc;
+}
+.constant.numeric {
+  color: #986801;
+}
+.constant.other.color {
+  color: #0184bc;
+}
+.constant.other.symbol {
+  color: #0184bc;
+}
+.variable {
+  color: #e45649;
+}
+.variable.interpolation {
+  color: #ca1243;
+}
+.variable.parameter {
+  color: #383a42;
+}
+.string {
+  color: #50a14f;
+}
+.string.regexp {
+  color: #0184bc;
+}
+.string.regexp .source.ruby.embedded {
+  color: #c18401;
+}
+.string.other.link {
+  color: #e45649;
+}
+.punctuation.definition.comment {
+  color: #a0a1a7;
+}
+.punctuation.definition.method-parameters,
+.punctuation.definition.function-parameters,
+.punctuation.definition.parameters,
+.punctuation.definition.separator,
+.punctuation.definition.seperator,
+.punctuation.definition.array {
+  color: #383a42;
+}
+.punctuation.definition.heading,
+.punctuation.definition.identity {
+  color: #4078f2;
+}
+.punctuation.definition.bold {
+  color: #c18401;
+  font-weight: bold;
+}
+.punctuation.definition.italic {
+  color: #a626a4;
+  font-style: italic;
+}
+.punctuation.section.embedded {
+  color: #ca1243;
+}
+.punctuation.section.method,
+.punctuation.section.class,
+.punctuation.section.inner-class {
+  color: #383a42;
+}
+.support.class {
+  color: #c18401;
+}
+.support.type {
+  color: #0184bc;
+}
+.support.function {
+  color: #0184bc;
+}
+.support.function.any-method {
+  color: #4078f2;
+}
+.entity.name.function {
+  color: #4078f2;
+}
+.entity.name.class,
+.entity.name.type.class {
+  color: #c18401;
+}
+.entity.name.section {
+  color: #4078f2;
+}
+.entity.name.tag {
+  color: #e45649;
+}
+.entity.other.attribute-name {
+  color: #986801;
+}
+.entity.other.attribute-name.id {
+  color: #4078f2;
+}
+.meta.class {
+  color: #c18401;
+}
+.meta.class.body {
+  color: #383a42;
+}
+.meta.method-call,
+.meta.method {
+  color: #383a42;
+}
+.meta.definition.variable {
+  color: #e45649;
+}
+.meta.link {
+  color: #986801;
+}
+.meta.require {
+  color: #4078f2;
+}
+.meta.selector {
+  color: #a626a4;
+}
+.meta.separator {
+  background-color: #373b41;
+  color: #383a42;
+}
+.meta.tag {
+  color: #383a42;
+}
+.underline {
+  text-decoration: underline;
+}
+.none {
+  color: #383a42;
+}
+.invalid.deprecated {
+  color: #000000 !important;
+  background-color: #f2a60d !important;
+}
+.invalid.illegal {
+  color: #ffffff !important;
+  background-color: #ff1414 !important;
+}
+.markup.bold {
+  color: #986801;
+  font-weight: bold;
+}
+.markup.changed {
+  color: #a626a4;
+}
+.markup.deleted {
+  color: #e45649;
+}
+.markup.italic {
+  color: #a626a4;
+  font-style: italic;
+}
+.markup.heading {
+  color: #e45649;
+}
+.markup.heading .punctuation.definition.heading {
+  color: #4078f2;
+}
+.markup.link {
+  color: #a626a4;
+}
+.markup.inserted {
+  color: #50a14f;
+}
+.markup.quote {
+  color: #986801;
+}
+.markup.raw {
+  color: #50a14f;
+}
+.source.c .keyword.operator {
+  color: #a626a4;
+}
+.source.cpp .keyword.operator {
+  color: #a626a4;
+}
+.source.cs .keyword.operator {
+  color: #a626a4;
+}
+.source.css .property-name,
+.source.css .property-value {
+  color: #696c77;
+}
+.source.css .property-name.support,
+.source.css .property-value.support {
+  color: #383a42;
+}
+.source.gfm .markup {
+  -webkit-font-smoothing: auto;
+}
+.source.gfm .link .entity {
+  color: #4078f2;
+}
+.source.go .storage.type.string {
+  color: #a626a4;
+}
+.source.ini .keyword.other.definition.ini {
+  color: #e45649;
+}
+.source.java .storage.modifier.import {
+  color: #c18401;
+}
+.source.java .storage.type {
+  color: #c18401;
+}
+.source.java .keyword.operator.instanceof {
+  color: #a626a4;
+}
+.source.java-properties .meta.key-pair {
+  color: #e45649;
+}
+.source.java-properties .meta.key-pair > .punctuation {
+  color: #383a42;
+}
+.source.js .keyword.operator {
+  color: #0184bc;
+}
+.source.js .keyword.operator.delete,
+.source.js .keyword.operator.in,
+.source.js .keyword.operator.of,
+.source.js .keyword.operator.instanceof,
+.source.js .keyword.operator.new,
+.source.js .keyword.operator.typeof,
+.source.js .keyword.operator.void {
+  color: #a626a4;
+}
+.source.json .meta.structure.dictionary.json > .string.quoted.json {
+  color: #e45649;
+}
+.source.json .meta.structure.dictionary.json > .string.quoted.json > .punctuation.string {
+  color: #e45649;
+}
+.source.json .meta.structure.dictionary.json > .value.json > .string.quoted.json,
+.source.json .meta.structure.array.json > .value.json > .string.quoted.json,
+.source.json .meta.structure.dictionary.json > .value.json > .string.quoted.json > .punctuation,
+.source.json .meta.structure.array.json > .value.json > .string.quoted.json > .punctuation {
+  color: #50a14f;
+}
+.source.json .meta.structure.dictionary.json > .constant.language.json,
+.source.json .meta.structure.array.json > .constant.language.json {
+  color: #0184bc;
+}
+.source.ruby .constant.other.symbol > .punctuation {
+  color: inherit;
+}
+.source.python .keyword.operator.logical.python {
+  color: #a626a4;
+}
+.source.python .variable.parameter {
+  color: #986801;
+}
+</style>
+  </head>
+  <body class='markdown-preview' data-use-github-style><h1 id="wrangle-openstreetmap-data">Wrangle OpenStreetMap Data</h1>
+<p><em>José Alves-Rausch</em></p>
+<p>Map Area: Göttingen, Niedersachsen, Germany</p>
+<p>Code repository: <a href="https://github.com/zelite/Wrangle-OpenStreetMap-Data/">github.com/zelite/Wrangle-OpenStreetMap-Data/</a></p>
+<p>Contents</p>
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:0 orderedList:0 -->
+<ul>
+<li><a href="#wrangle-openstreetmap-data">Wrangle OpenStreetMap Data</a><ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#problems-encountered-in-the-map">Problems Encountered in the Map</a><ul>
+<li><a href="#auditing-validity">Auditing Validity</a></li>
+<li><a href="#auditing-accuracy">Auditing Accuracy</a></li>
+<li><a href="#auditing-completeness">Auditing Completeness</a></li>
+<li><a href="#auditing-uniformity">Auditing Uniformity</a></li>
+</ul>
+</li>
+<li><a href="#converting-to-json">Converting to JSON</a></li>
+<li><a href="#data-overview">Data Overview</a></li>
+<li><a href="#additional-ideas-exploring-accessibility">Additional Ideas – Exploring Accessibility</a></li>
+<li><a href="#conclusion">Conclusion</a></li>
+<li><a href="#references">References</a></li>
+</ul>
+</li>
+</ul>
+<!-- /TOC -->
+<h2 id="introduction">Introduction</h2>
+<p>The goal of this project is to get map data from a region of the world; audit the data; fix the problems found; import the data into a MongoDB database and run some exploratory queries against it. The place in the world that I chose is Göttingen because it is near my current location. Göttingen is most famous for its university from which “45 Nobel Prize Laurates were linked via their Curriculum Vitae” (Georg-August-Universität Göttingen, 2015).</p>
+<h2 id="problems-encountered-in-the-map">Problems Encountered in the Map</h2>
+<h3 id="auditing-validity">Auditing Validity</h3>
+<p>The map region between latitudes 51.49 and 51.59, and longitudes 9.80 and 10.05, was obtained using the Overpass API (Wiki.openstreetmap.org, 2015a). The data comes in a XML file. In order to validate the validity of the file, an XML schema file, adapted from Schrenk (2012) was used. Using the lxml python library, it is possible to use the schema to validate the XML file while parsing it (Lxml.de, 2015). Please note, that although several users have come up with schema specifications, there is no official schema for the OSM XML (Wiki.openstreetmap.org, 2015b).</p>
+<p>Because of the large size of the file, an iterative validation was performed (<code>iterative_validator</code>).</p>
+<p><strong>No problems were found in structure of the XML file.</strong></p>
+<h3 id="auditing-accuracy">Auditing Accuracy</h3>
+<p>Auditing accuracy, means checking if our data is correct, i.e., does it conform to a gold standard? It was hard to find any authoritative source of data to which to compare the OpenStreetMaps data. The Deutsche Post provides data of postal codes, street names, buildings and geo-data (Deutschepost.de, 2015), which may be useful when developing a commercial project. However, the limited budget of this project does not allow me to use such a resource. Alternatively, I will use the online maps of the city of Göttingen (Stadtplan.goettingen.de, 2015). On this website we can access simple maps and search for street names. The amount of data that we can extract from it is limited, but we can get a listing of street names. We can compare the street names from the OSM file with the street names extracted from the website. Note that the list names provided by the Göttingen website does not include all street names. Some small street segments do not have a name in this online maps. Additionally, when extracting the map area from OSM, a rectangle area was selected which includes more than the Göttingen city administrative region. Therefore there will be several streets that are not present in the list of street names extracted from the official city maps. Nevertheless, I will use the list of street names as a quick reference to audit for typos in the street names.</p>
+<p>For each street name found in the OSM data I check if the street exists in the list from the Göttingen city. If the name does not exist, the closest street name match is selected. Then, I manually check this closest matches and select the ones which need to be corrected. The criteria for correction is if the mismatch results from a typo. The list of street names to be corrected is saved in a .csv file which is then used to clean up the OSM XML file. Because there is a manual step involved, there’s the chance of missing some incorrect street names or introducing a new mistake. I will accept that for this project, since there is no better gold standard available.</p>
+<p><strong>18 street names were marked for correction.</strong></p>
+<h3 id="auditing-completeness">Auditing Completeness</h3>
+<p>Auditing completeness is not really possible without an authoritative data source to which to compare our data. Since all sorts of things can be added to the map data – e.g.: amenities, bike paths, bus stops – and the dynamic nature of the cities – new businesses open, transportation network is updated – <strong>we can never consider that a city map is complete.</strong></p>
+<h3 id="auditing-uniformity">Auditing Uniformity</h3>
+<p>As an example of auditing for uniformity, is checking the format of the phone numbers included in the OSM file. A first look into the phone numbers shows that the phone numbers are not represented in a standardized way. Most are formatted in an international format (e.g.: +49 1234 56789), while a few use the national prefix with a leading zero, and some have hiphens inside the phone number. On this step I will <strong>use the python library “phonenumbers” to format all the phone numbers to the international format</strong> (Drysdale, 2015).</p>
+<p>Some phone number tags show more than one phone number separated by a comma. These will be converted to a list in the JSON file. Others do not have a leading “+” before the “49” which is the international prefix. Some phone number entries have the text “keine”. <strong>The auditing showed 3858 phone numbers in the international format and 783 in other formats. All the phone numbers will be converted to the international format.</strong></p>
+<h2 id="converting-to-json">Converting to JSON</h2>
+<p>Before importing the OSM data into a MongoDB we will convert the XML data to a JSON file and then use the <code>mongoimport</code> tool to insert this data in the MongoDB database. During the conversion to JSON we will correct some of the problems found in the auditing process, namely:</p>
+<ul>
+<li>correct typos in street names</li>
+<li>standardize the telephone numbers</li>
+</ul>
+<p>Only the elements of type “node” and “way” will be imported to the database. The data model we’re going to use follows the format of this example:</p>
+<pre class="editor-colors lang-text"><div class="line"><span class="text plain"><span class="meta paragraph text"><span>{</span></span></span></div><div class="line"><span class="text plain"><span class="meta paragraph text"><span>&quot;id&quot;:&nbsp;&quot;2406124091&quot;,</span></span></span></div><div class="line"><span class="text plain"><span class="meta paragraph text"><span>&quot;type:&nbsp;&quot;node&quot;,</span></span></span></div><div class="line"><span class="text plain"><span class="meta paragraph text"><span>&quot;visible&quot;:&quot;true&quot;,</span></span></span></div><div class="line"><span class="text plain"><span class="meta paragraph text"><span>&quot;created&quot;:&nbsp;{</span></span></span></div><div class="line"><span class="text plain"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="meta paragraph text"><span>&quot;version&quot;:&quot;2&quot;,</span></span></span></div><div class="line"><span class="text plain"><span class="meta paragraph text"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;changeset&quot;:&quot;17206049&quot;,</span></span></span></div><div class="line"><span class="text plain"><span class="meta paragraph text"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;timestamp&quot;:&quot;2013-08-03T16:43:42Z&quot;,</span></span></span></div><div class="line"><span class="text plain"><span class="meta paragraph text"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;user&quot;:&quot;linuxUser16&quot;,</span></span></span></div><div class="line"><span class="text plain"><span class="meta paragraph text"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;uid&quot;:&quot;1219059&quot;</span></span></span></div><div class="line"><span class="text plain"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="meta paragraph text"><span>},</span></span></span></div><div class="line"><span class="text plain"><span class="meta paragraph text"><span>&quot;pos&quot;:&nbsp;[41.9757030,&nbsp;-87.6921867],</span></span></span></div><div class="line"><span class="text plain"><span class="meta paragraph text"><span>&quot;address&quot;:&nbsp;{</span></span></span></div><div class="line"><span class="text plain"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="meta paragraph text"><span>&quot;housenumber&quot;:&nbsp;&quot;5157&quot;,</span></span></span></div><div class="line"><span class="text plain"><span class="meta paragraph text"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;postcode&quot;:&nbsp;&quot;60625&quot;,</span></span></span></div><div class="line"><span class="text plain"><span class="meta paragraph text"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;street&quot;:&nbsp;&quot;North&nbsp;Lincoln&nbsp;Ave&quot;</span></span></span></div><div class="line"><span class="text plain"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="meta paragraph text"><span>},</span></span></span></div><div class="line"><span class="text plain"><span class="meta paragraph text"><span>&quot;amenity&quot;:&nbsp;&quot;restaurant&quot;,</span></span></span></div><div class="line"><span class="text plain"><span class="meta paragraph text"><span>&quot;cuisine&quot;:&nbsp;&quot;mexican&quot;,</span></span></span></div><div class="line"><span class="text plain"><span class="meta paragraph text"><span>&quot;name&quot;:&nbsp;&quot;La&nbsp;Cabana&nbsp;De&nbsp;Don&nbsp;Luis&quot;,</span></span></span></div><div class="line"><span class="text plain"><span class="meta paragraph text"><span>&quot;phone&quot;:&nbsp;&quot;1&nbsp;(773)-271-5176&quot;</span></span></span></div><div class="line"><span class="text plain"><span class="meta paragraph text"><span>}</span></span></span></div></pre><h2 id="data-overview">Data Overview</h2>
+<p>On this section we will provide some descriptive statistics about our dataset.
+Our starting files have the following sizes:</p>
+<pre class="editor-colors lang-text"><div class="line"><span class="text plain"><span class="meta paragraph text"><span>goettingen.osm&nbsp;114&nbsp;MB</span></span></span></div><div class="line"><span class="text plain"><span class="meta paragraph text"><span>goettingen.osm.json&nbsp;160&nbsp;MB</span></span></span></div></pre><p>The JSON file was imported to the MongoDB using the mongoimport tool.
+The interaction with the MongoDB was made using the pymongo driver.
+There are 520 unique users.</p>
+<pre class="editor-colors lang-text"><div class="line"><span class="text plain"><span class="meta paragraph text"><span>len(db.goettingen.distinct(&quot;created.user&quot;))</span></span></span></div><div class="line"><span class="text plain"><span class="meta paragraph text"><span>520</span></span></span></div></pre><p>88693 is the number of ways.</p>
+<pre class="editor-colors lang-text"><div class="line"><span class="text plain"><span class="meta paragraph text"><span>db.goettingen.find({&quot;type&quot;:&quot;way&quot;}).count()</span></span></span></div><div class="line"><span class="text plain"><span class="meta paragraph text"><span>88693</span></span></span></div></pre><p>We have 466772 nodes.</p>
+<pre class="editor-colors lang-text"><div class="line"><span class="text plain"><span class="meta paragraph text"><span>db.goettingen.find({&quot;type&quot;:&quot;node&quot;}).count()</span></span></span></div><div class="line"><span class="text plain"><span class="meta paragraph text"><span>466772</span></span></span></div></pre><p>After all this work, I am feeling hungry. I wonder how many vending machines sell food in the Göttingen area.</p>
+<pre class="editor-colors lang-text"><div class="line"><span class="text plain"><span class="meta paragraph text"><span>db.goettingen.find({&quot;amenity&quot;:&quot;vending_machine&quot;,</span></span></span></div><div class="line"><span class="text plain"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="meta paragraph text"><span>&quot;vending&quot;:&nbsp;{&quot;$in&quot;:&nbsp;[&quot;food&quot;,&nbsp;&quot;food;drinks&quot;]}</span></span></span></div><div class="line"><span class="text plain"><span class="meta paragraph text"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}).count()</span></span></span></div><div class="line"><span class="text plain"><span class="meta paragraph text"><span>10</span></span></span></div></pre><p>Just 10 vending machines with food. That is a bit disappointing.</p>
+<h2 id="additional-ideas-exploring-accessibility">Additional Ideas – Exploring Accessibility</h2>
+<p>On this section I will explore which information about wheelchair accessibility is present in the OSM data for the region of Göttingen.
+Let us begin by having a look at the top 20 amenities found in the Göttingen area. The code for the plots is included in the <code>data_overview.py</code> script.</p>
+<p><img src="C:\Users\jcaf\Dropbox\00Udacity\DataAnalystNanoDegree\Nanodegree Github\Wrangle-OpenStreetMap-Data\top_20amenitys.png" alt="Bar Chart with Top 20 amenities">
+<em>Figure 1 – Top 20 amenity types found in the OSM data.</em></p>
+<p>We can see that there are lots of benches, parking spots (cars and bikes) and waste baskets. We will focus on the amenities where people can actually walk inside: restaurants, kindergartens, fast food restaurants, doctor´s offices, cafes, places of worship and schools.</p>
+<p><img src="C:\Users\jcaf\Dropbox\00Udacity\DataAnalystNanoDegree\Nanodegree Github\Wrangle-OpenStreetMap-Data\amenities_and_access.png" alt="Bart chart with accessibitty information per amenity type">
+<em>Figure 2 – Accessibility percentage for each type of amenity.</em></p>
+<p>We can see that for the chosen amenities, most do not have information about wheelchair accessibility. For the ones with information, the combination of “yes” and “limited” accessibility is always higher than the “no”.</p>
+<p>Given the importance of this information for wheelchair users, it would be beneficial to make sure all the amenities actually provide this information. The OSM wiki provides information on how amenities and ways should be tagged to provide the wheelchair accessibility information (Wiki.openstreetmap.org, 2015c). However, it clear that many of the amenities simply do not provide any information. A more exhaustive documentation of the accessibility situation of every amenity would be beneficial for wheelchair users to make decisions on where to go, and could also put pressure on the amenities with bad accessibility to improve their spaces.</p>
+<p>In order to improve the data gap, it would be necessary to involve the OSM user community. As a first step, a list of ways and amenities without the accessibility information should be compiled. This could even be presented on a map as “missing data hotspots”. Then, a group of volunteers needs to visit the places and document the real situation. To make sure the documentation is accurate, the users should consult with wheelchair users to make sure that the description of the accessibility situation is accurate. As an example, the OpenStreetMaps wiki mentions: “Hint: Always think of heavy electric wheelchairs that can not pass any steps.”</p>
+<p>The guidelines to provide information about wheelchair accessibility already exist in the OSM project. Therefore, what can be done on the database level is documenting where the data is missing. To be sure of the real accessibility situation, actually visiting the places seems essential. A way speeding up the collection of information, would be to develop a app for wheelchair users which could track which ways and places they were on, and add the information to the OSM project. However, this solution would not cover the cases where there is no information and it is not possible to access by wheelchair. The data would stay missing, which is less useful than an actual “wheelchair=no” information.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>On this project we have seen that the OpenStreetMaps have very detailed information about the city of Göttingen. Given the open nature of the project, many people contribute in slightly different ways which can introduce errors or simply different consistency in the way the information is formatted. Some errors were fixed in street name addresses and an example of standardization of phone numbers formatting was shown. Using the power of MongoDB the information regarding wheelchair accessibility of the amenities in Göttingen was explored and we found that many of the amenities do not have data regarding the accessibility status.</p>
+<h2 id="references">References</h2>
+<p>Georg-August-Universität Göttingen, (2015). <em>Nobel Prize Laureates from Göttingen.</em> [online] Uni-goettingen.de. Available at: <a href="https://www.uni-goettingen.de/en/nobel-prize-laureates-from-g%C3%B6ttingen/4281.html">https://www.uni-goettingen.de/en/nobel-prize-laureates-from-g%C3%B6ttingen/4281.html</a> [Accessed 9 Dec. 2015].</p>
+<p>Wiki.openstreetmap.org, (2015a). <em>Overpass API - OpenStreetMap Wiki.</em> [online] Available at: <a href="http://wiki.openstreetmap.org/wiki/Overpass_API">http://wiki.openstreetmap.org/wiki/Overpass_API</a> [Accessed 9 Dec. 2015].</p>
+<p>Schrenk, O. (2012). <em>oschrenk/gis-java.</em> [online] GitHub. Available at: <a href="https://github.com/oschrenk/gis-java/blob/master/lib/gis/formats/osm.io/src/main/resources/OSMSchema.xsd">https://github.com/oschrenk/gis-java/blob/master/lib/gis/formats/osm.io/src/main/resources/OSMSchema.xsd</a> [Accessed 9 Dec. 2015].</p>
+<p>Lxml.de, (2015). <em>Validation with lxml.</em> [online] Available at: <a href="http://lxml.de/validation.html#validation-at-parse-time">http://lxml.de/validation.html#validation-at-parse-time</a> [Accessed 9 Dec. 2015].</p>
+<p>Wiki.openstreetmap.org, (2015b). <em>OSM XML - OpenStreetMap Wiki.</em> [online] Available at: <a href="http://wiki.openstreetmap.org/wiki/OSM_XML">http://wiki.openstreetmap.org/wiki/OSM_XML</a> [Accessed 9 Dec. 2015].</p>
+<p>Deutschepost.de, (2015). <em>DATAFACTORY.</em> [online] Available at: <a href="https://www.deutschepost.de/en/d/deutsche-post-direkt/datafactory.html">https://www.deutschepost.de/en/d/deutsche-post-direkt/datafactory.html</a> [Accessed 9 Dec. 2015].</p>
+<p>Stadtplan.goettingen.de, (2015). <em>Online-Stadtplan Göttingen.</em> [online] Available at: <a href="http://stadtplan.goettingen.de/">http://stadtplan.goettingen.de/</a> [Accessed 9 Dec. 2015].</p>
+<p>Drysdale, D. (2015). <em>daviddrysdale/python-phonenumbers.</em> [online] GitHub. Available at: <a href="https://github.com/daviddrysdale/python-phonenumbers">https://github.com/daviddrysdale/python-phonenumbers</a> [Accessed 22 Dec. 2015].</p>
+<p>Wiki.openstreetmap.org, (2015). <em>Key:wheelchair - OpenStreetMap Wiki.</em> [online] Available at: <a href="http://wiki.openstreetmap.org/wiki/Key:wheelchair">http://wiki.openstreetmap.org/wiki/Key:wheelchair</a> [Accessed 23 Dec. 2015].</p></body>
+</html>
